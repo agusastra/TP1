@@ -53,20 +53,20 @@ section label {
     }
 
 .name {
-    width: 68%;;
-    height: 20px;
+    width: 68%;
+    height: 20%;
     padding: 5px;
     border: 1px solid blue;
 }
 .gender {
-    width: 68%;;
-    height: 20px;
+    width: 68%;
+    height: 20%;
     padding: 5px;
     border: 1px solid blue;
 }
 .contact {
-    width: 68%;;
-    height: 20px;
+    width: 68%;
+    height: 20%;
     padding: 5px;
     border: 1px solid blue;
 }
