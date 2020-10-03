@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html:lang>
+  <meta charset="UTF-8">
+  <meta name="author" content="Agus Susanto">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" a href="TP/style.css">
+  <script src="TP/javascript.js"></script>
+
+
+  <title>Premier TP</title>
+</head>
+<body>
+    <nav id="male">
+    <h2>Agus Susanto</h2>
+      <ul>
+        <li><a href="#male">Accueil</a></li>
+        <li><a href="https://passeport.dauphine.fr">Passport Dauphine</a></li>
+        </ul>
+    </nav>
+
+
+  <img src="TP/dauphinelogo.png">
+<section id ="label"><br>
+  <form >
+  <label for="fname" >Name:</label>
+  <input type="text" id="fname" name="fname" value="Nom">
+  <label for="lname">Middle name:</label>
+  <input type="text" id="mdname" name="mdname" value="">
+  <label for="lname">Laste name:</label>
+  <input type="text" id="lname" name="lname" value=""><br>
+  <label for="male">Male</label>
+  <input type="radio" id="male" name="gender" value="male">
+  <label for="female">Female</label>
+  <input type="radio" id="female" name="gender" value="female"><br>
+  <label for="fphone">Phone:</label>
+  <input type="text" id="fphone" name="fphone" value="">
+  <label for="email" class = "email">Email:</label>
+  <input type="text" id="email" name="email" value="">
+  <label for="contact">Contact ?</label>
+  <input type="radio" id="contact" name="contact" value=""><br>
+  </section>
+  
+  <section id="button">
+  <button type="submit" form="nameform" value="Submit">Soumettre</button>
+  <button type="submit" form="nameform" value="Remettre">Remettre à zéro</button>
+  <button type="button" onclick="changeValue('fname')">Appel javascript </button>
+  </section>
+
+ 
+</form>
+</nav>
+
+
+</body>
+</html>
