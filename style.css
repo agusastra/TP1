@@ -1,0 +1,39 @@
+body {
+    color : black;
+    font-family : Arial;
+    padding : 20px 0 20px 15px;
+    margin: auto;
+    }
+    nav h2 {
+        color: #0475BA;
+        padding: 20px 0 20px 15px;
+        margin: 0;
+        float: left;
+        font-family: Arial;
+    }
+nav {
+    height: 70px;
+    }
+
+    nav ul {
+        margin: 0;
+        list-style: none;
+        float: left;
+        padding: 24px;
+      
+    }
+    
+    nav li {
+        float: left;
+        margin-left: 15px;
+    }
+.field {
+    display : flex;
+    }
+.email {
+    color : red;
+    font-family : Arial;
+    }
+section label {
+    font-weight : bold;
+    }
