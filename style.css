@@ -1,72 +1,73 @@
 body {
+color : black;
+font-family : Arial;
+padding : 20px 0 20px 15px;
+margin : auto;
+}
 
-    color : black;
-    font-family : Arial;
-    padding : 20px 0 20px 15px;
-    margin: auto;
-    
-    }
-.img {
-    width: 65.7%;
-    height: auto;
-    padding: 20px;
-    
-    border: 1px solid blue;
-    
-    
-    }
 nav h2 {
-        color: #0475BA;
-        padding: 20px 0 20px 15px;
-        margin: 0;
-        float: left;
-        font-family: Arial;
-    }
+color : #0475BA;
+padding : 20px 0 20px 15px;
+margin : 0;
+float : left;
+font-family : Arial;
+}
+
 nav {
-    height: 70px;
-    }
+height : 70px;
+}
 
-    nav ul {
-        margin: 0;
-        list-style: none;
-        float: left;
-        padding: 24px;
-      
-    }
-    
-    nav li {
-        float: left;
-        margin-left: 15px;
-    }
+nav ul {
+margin : 0;
+list-style : none;
+float : left;
+padding : 24px;
+}
 
-.email {
-    color : red;
-    font-family : Arial;
-    }
-
+nav li {
+float : left;
+margin-left : 15px;
+}
 
 section label {
-    font-weight : bold;
-    max-width: 800px;
-    margin: 0 auto;
-    padding: 10px;
-    }
+font-weight : bold;
+max-width : 800px;
+margin : 0 auto;
+padding : 10px;
+}
+img {
+    width: 55%;
+    height:65%;
+    padding : 20px;
+}
+.img {
+width : 70.79%;
+height : 150px;
+border : blue solid 1px;
+}
+
+.email {
+color : red;
+font-family : Arial;
+}
 
 .name {
-    width: 68%;
-    height: 20%;
-    padding: 5px;
-    border: 1px solid blue;
+width : 70%;
+height : 20px;
+padding : 5px;
+border : blue solid 1px;
 }
+
 .gender {
-    width: 68%;
-    height: 20%;
-    padding: 5px;
-    border: 1px solid blue;
+width : 70%;
+height : 20px;
+padding : 5px;
+border : blue solid 1px;
 }
+
 .contact {
-    width: 68%;
-    height: 20%;
-    padding: 5px;
-    border: 1px solid blue;
+width : 70%;
+height : 20px;
+padding : 5px;
+border : blue solid 1px;
 }
