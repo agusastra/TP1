@@ -7,7 +7,7 @@ body {
     
     }
 .img {
-    width: 100%;
+    width: 65.7%;
     height: 150px;
     padding: 20px;
     
@@ -53,19 +53,19 @@ section label {
     }
 
 .name {
-    width: 900px;
+    width: 68%;;
     height: 20px;
     padding: 5px;
     border: 1px solid blue;
 }
 .gender {
-    width: 900px;
+    width: 68%;;
     height: 20px;
     padding: 5px;
     border: 1px solid blue;
 }
 .contact {
-    width: 900px;
+    width: 68%;;
     height: 20px;
     padding: 5px;
     border: 1px solid blue;
