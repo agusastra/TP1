@@ -41,7 +41,7 @@ img {
     padding : 20px;
 }
 .img {
-width : 70.79%;
+width : 90.79%;
 height : 150px;
 border : blue solid 1px;
 }
@@ -52,21 +52,21 @@ font-family : Arial;
 }
 
 .name {
-width : 70%;
+width : 90%;
 height : 20px;
 padding : 5px;
 border : blue solid 1px;
 }
 
 .gender {
-width : 70%;
+width : 90%;
 height : 20px;
 padding : 5px;
 border : blue solid 1px;
 }
 
 .contact {
-width : 70%;
+width : 90%;
 height : 20px;
 padding : 5px;
 border : blue solid 1px;
