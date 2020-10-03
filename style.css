@@ -1,10 +1,21 @@
 body {
+
     color : black;
     font-family : Arial;
     padding : 20px 0 20px 15px;
     margin: auto;
+    
     }
-    nav h2 {
+.img {
+    width: 870px;
+    height: 150px;
+    padding: 20px;
+    
+    border: 1px solid blue;
+    
+    
+    }
+nav h2 {
         color: #0475BA;
         padding: 20px 0 20px 15px;
         margin: 0;
@@ -27,13 +38,35 @@ nav {
         float: left;
         margin-left: 15px;
     }
-.field {
-    display : flex;
-    }
+
 .email {
     color : red;
     font-family : Arial;
     }
+
+
 section label {
     font-weight : bold;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 10px;
     }
+
+.name {
+    width: 900px;
+    height: 20px;
+    padding: 5px;
+    border: 1px solid blue;
+}
+.gender {
+    width: 900px;
+    height: 20px;
+    padding: 5px;
+    border: 1px solid blue;
+}
+.contact {
+    width: 900px;
+    height: 20px;
+    padding: 5px;
+    border: 1px solid blue;
+}
