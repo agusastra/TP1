@@ -30,7 +30,7 @@ float : left;
 margin-left : 15px;
 }
 
-section label {
+div label {
 font-weight : bold;
 max-width : 800px;
 margin : 0 auto;
@@ -49,13 +49,12 @@ border : blue solid 1px;
 
 .email {
 color : red;
-font-family : Arial;
 }
 
 .name {
 width : 900px;
 height : 20px;
-padding : 5px;
+padding : 5px 5px;
 border : blue solid 1px;
 }
 
