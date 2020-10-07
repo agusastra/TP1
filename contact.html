@@ -1,29 +1,27 @@
 <!DOCTYPE html>
 <html>
   <meta charset="UTF-8">
+  <title>Premier TP</title>
   <meta name="author" content="Agus Susanto">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" type="text/css" a href="style.css">
+  <link rel="stylesheet" type="text/css" href="style.css">
   <script src="javascript.js"></script>
   
-
-
-  <title>Premier TP</title>
 </head>
 <body>
     <nav id="male">
     <h2>Agus Susanto</h2>
       <ul>
         <li><a href="#male">Accueil</a></li>
-        <li><a href="https://passeport.dauphine.fr">Passport Dauphine</a></li>
+        <li><a href="https://passeport.dauphine.fr" target="blank" accesskey="p">Passport Dauphine</a></li>
         </ul>
     </nav>
 
-    <section class = "img">
-      <img src="dauphinelogo.png">
-    </section>
+    <div class = "img">
+      <img src="dauphinelogo.png" alt ="logo dauphine">
+    </div>
   
-<section class="label">
+<div class="label">
   <form class="name">
     <label for="fname" >Name:</label>
     <input type="text" id="fname" name="fname" value="Nom">
@@ -46,13 +44,13 @@
     <label for="contact">Contact ?</label>
     <input type="radio" id="contact" name="contact" value=""><br>
   </form>
-  </section>
+  </div>
   
-  <section >
-  <button type="submit" form="nameform" value="Submit">Soumettre</button>
-  <button type="submit" form="nameform" value="Remettre">Remettre à zéro</button>
+  <div >
+  <input type="submit" value="Submit">Soumettre>
+  <input type="reset" value="Remettre">Remettre à zéro>
   <button type="button" onclick="changeValue('fname')">Appel javascript </button>
-  </section>
+  </div>
 
  
 </form>
